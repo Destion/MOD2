@@ -1,4 +1,4 @@
-package week1;
+package Lamp;
 
 public class Lamp {
 	private int setting;
@@ -22,3 +22,4 @@ public class Lamp {
 		return this.setting;
 	}
 }
+
