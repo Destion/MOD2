@@ -1,4 +1,4 @@
-package Lamp;
+package week1;
 
 public class Lamp {
 	private int setting;
