@@ -2,11 +2,14 @@ package week1;
 
 public class Lamp {
 	private int setting;
-	public Lamp(int setting){
-		this.setting = setting;
+	public Lamp(){
+		this.setting = 0;
 	}
-	public void setSetting(int setting){
-		this.setting = setting;
+	public void pushButton(){
+		this.setting = this.setting + 1;
+		if (this.setting > 3){
+			this.setting = 0;
+		}
 	}
 	public int getSetting(){
 		return this.setting;
